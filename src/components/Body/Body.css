@@ -1,0 +1,134 @@
+.body_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(257, 7%, 63%);
+  gap: 30px;
+  position: relative;
+}
+
+.body_items {
+  display: flex;
+  background-color: hsl(257, 27%, 26%);
+  width: 60%;
+  height: 100px;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  top: -50px;
+  background-image: url("../../images/bg-boost-desktop.svg");
+  align-items: center;
+}
+
+.body_items input {
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px;
+  border: none;
+}
+
+.body_btn {
+  width: 15%;
+  height: 50px;
+  border-radius: 15px;
+  background-color: hsl(180, 66%, 49%);
+  color: #ffff;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.body_inputs {
+  display: flex;
+  width: 60%;
+  height: 100px;
+  border-radius: 10px;
+  padding: 20px;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0px auto;
+  color: black;
+
+}
+
+.body_inputs .shortened_paragraph {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  position: relative;
+  padding-left: 10px;
+  background-color: #ffff;
+  margin-top: 50px;
+  align-items: center;
+  display: flex;
+}
+
+.body_inputs_btn {
+  width: 80px;
+  height: 35px;
+  position: absolute;
+  right: 350px;
+  top: 78px;
+  background-color: hsl(180, 66%, 49%);
+  color: #ffff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* .loading {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+} */
+
+@media screen and (max-width: 450px) {
+  .body_items {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    height: 140px;
+    align-items: center;
+  }
+
+  .body_items input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .body_btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+
+  .body_inputs {
+    margin-top: 0px;
+    width: 94%;
+    margin: 40px auto;
+  }
+
+  .body_inputs_btn {
+    right: 45px;
+    top: 120px;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+  }
+
+  .loading {
+    margin-top: 30px;
+  }
+}

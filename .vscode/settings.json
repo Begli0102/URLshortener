@@ -1,0 +1,13 @@
+// Format all files on save.
+{"editor.formatOnSave": true,
+
+// Format per-language file on save.
+"[javascript]": {
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "numso.prettier-standard-vscode"
+},
+"editor.defaultFormatter": "svipas.prettier-plus",
+"[css]": {
+  "editor.defaultFormatter": "Wscats.eno"
+}
+}

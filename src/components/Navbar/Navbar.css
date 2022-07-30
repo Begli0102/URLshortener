@@ -1,0 +1,157 @@
+.navbar {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 20px 30px;
+  align-items: center;
+}
+
+.navbar_left {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-left: 30px;
+  align-items: center;
+}
+
+.navbar_left img {
+  margin-right: 20px;
+  font-size: 2rem;
+}
+
+.ul_links {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.links .ul_links li a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+
+  font-size: 1.2rem;
+  color: #d0d4d5;
+  text-transform: uppercase;
+  padding: 4px 0;
+  transition: 0.5s;
+}
+
+.links .ul_links li a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: #43389a;
+  transition: transform 0.3s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.links .ul_links li :hover {
+  color: hsl(255, 11%, 22%)
+}
+
+.links .ul_links li :hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.navbar_right {
+  display: flex;
+  width: 40%;
+  gap: 25px;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.navbar_right button {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  color: hsl(0, 0%, 75%);
+  width: 100px;
+}
+
+.navbar_right button:hover {
+  background-color: hsl(180, 66%, 49%);
+  cursor: pointer;
+  padding: 0px 10px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.down {
+  width: 50px;
+  height: 50px;
+ 
+}
+
+@media screen and (max-width: 450px) {
+  .navbar {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+  }
+
+  .navbar_left {
+    width: 50%;
+
+  }
+
+  .navbar_left img {
+    width: 65px;
+    height: 22px;
+
+
+  }
+
+  .links .ul_links {
+    gap: 15px;
+  }
+
+  .links .ul_links li a {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .navbar_right {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+
+  }
+
+  .navbar_right button {
+    font-size: 14px;
+    font-weight: 500;
+    width: 90px;
+    justify-items: flex-start;
+    color: hsl(0, 0%, 75%);
+  }
+
+  /* .navbar_right button:hover {
+    padding: 0px;
+    width: 50px;
+  } */
+
+  .down {
+    width: 10%;
+    height: 30px;
+    margin-right: 20px;
+  }
+}

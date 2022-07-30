@@ -1,0 +1,133 @@
+.body_container_middle {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.body_container_middle h3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 0px, 1.5px 0px, 1px 0px;
+}
+
+.body_container_middle p {
+  color: hsl(0, 10%, 85%);
+}
+
+.body_container_bottom {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.container_bottom1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  width: 350px;
+  height: 250px;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.container_bottom2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  width: 350px;
+  height: 250px;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.container_bottom3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  width: 350px;
+  height: 250px;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  position: relative;
+
+
+}
+
+.container_bottom h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container_bottom p {
+  color: hsl(0, 0%, 75%);
+}
+
+.container_bottom1 .image,
+.container_bottom2 .image,
+.container_bottom3 .image {
+  background-color: hsl(255, 11%, 22%);
+  border-radius: 99px;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -40px;
+  left: 20px;
+}
+
+@media screen and (max-width: 450px) {
+
+  .body_container_middle {
+    width: 88%;
+    margin-bottom: 70px;
+    margin-top: 0px;
+  }
+
+  .body_container_bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    }
+
+  .container_bottom1,
+  .container_bottom2,
+  .container_bottom3 {
+    margin-bottom: 50px;
+  }
+
+  .container_bottom1 .image,
+  .container_bottom2 .image,
+  .container_bottom3 .image {
+    top: -40px;
+    left: 130px;
+  }
+
+  .container_bottom p {
+    text-align: center;
+  }
+}

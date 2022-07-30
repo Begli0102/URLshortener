@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6a3cd709.chunk.css",
+    "main.js": "/static/js/main.416db4e5.chunk.js",
+    "main.js.map": "/static/js/main.416db4e5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f570f733.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f570f733.js.map",
+    "static/js/2.765864f4.chunk.js": "/static/js/2.765864f4.chunk.js",
+    "static/js/2.765864f4.chunk.js.map": "/static/js/2.765864f4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fb82f68155e9529e9c2437eab2500fde.js": "/precache-manifest.fb82f68155e9529e9c2437eab2500fde.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6a3cd709.chunk.css.map": "/static/css/main.6a3cd709.chunk.css.map",
+    "static/js/2.765864f4.chunk.js.LICENSE.txt": "/static/js/2.765864f4.chunk.js.LICENSE.txt",
+    "static/media/Footer.css": "/static/media/bg-boost-desktop.dc8b886b.svg",
+    "static/media/icon-brand-recognition.svg": "/static/media/icon-brand-recognition.1922b68a.svg",
+    "static/media/icon-detailed-records.svg": "/static/media/icon-detailed-records.e3d9caa9.svg",
+    "static/media/icon-facebook.svg": "/static/media/icon-facebook.7febcff9.svg",
+    "static/media/icon-fully-customizable.svg": "/static/media/icon-fully-customizable.cc099cea.svg",
+    "static/media/icon-instagram.svg": "/static/media/icon-instagram.996b697c.svg",
+    "static/media/icon-pinterest.svg": "/static/media/icon-pinterest.c557c3d4.svg",
+    "static/media/icon-twitter.svg": "/static/media/icon-twitter.cb4fea0b.svg",
+    "static/media/illustration-working.svg": "/static/media/illustration-working.5029d049.svg",
+    "static/media/logo.svg": "/static/media/logo.6387840f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f570f733.js",
+    "static/js/2.765864f4.chunk.js",
+    "static/css/main.6a3cd709.chunk.css",
+    "static/js/main.416db4e5.chunk.js"
+  ]
+}
