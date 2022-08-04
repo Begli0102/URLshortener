@@ -7,23 +7,23 @@ const Body = () => {
   const [inputValue, setInputValue] = useState('')
   const [shortenedLink, setShortenedLink] = useState('')
   const [copied, setCopied] = useState(false)
-  // const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false)
 
   const getData = async () => {
-    // setLoading(true)
+    setLoading(true)
     try {
       const response = await fetch(
         `https://api.shrtco.de/v2/shorten?url=${inputValue}`
       )
 
       let shortenedLink = await response.json()
-      console.log(shortenedLink.result.full_short_link)
+      console.log(shortenedLink.result)
       setShortenedLink(shortenedLink.result.full_short_link)
       setInputValue('')
-      // setLoading(false)
+      setLoading(false)
     } catch (error) {
       console.log(error)
-      // setLoading(false)
+      setLoading(false)
     }
   }
 
@@ -52,7 +52,10 @@ const Body = () => {
           Shorten it
         </button>
       </div>
+
       <div className='body_inputs'>
+        {loading ? <h1 className='loading'>Loading...</h1> : ''}
+
         {shortenedLink && (
           <div className='input'>
             <p className='shortened_paragraph'>{shortenedLink}</p>

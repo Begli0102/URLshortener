@@ -2,9 +2,9 @@ import React from 'react'
 import './Header.css'
 import image from '../../images/illustration-working.svg'
 
-
-
 const Header = () => {
+  
+
   return (
     <div className='header_items'>
       <div className='header_items_left'>
