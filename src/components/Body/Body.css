@@ -20,6 +20,7 @@
   top: -50px;
   background-image: url("../../images/bg-boost-desktop.svg");
   align-items: center;
+
 }
 
 .body_items input {
@@ -30,6 +31,17 @@
   outline: none;
   padding: 5px;
   border: none;
+}
+
+.body_items .input1 {
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px;
+  border: 1px solid crimson;
+
 }
 
 .body_btn {

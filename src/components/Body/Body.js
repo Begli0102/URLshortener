@@ -52,7 +52,6 @@ const Body = () => {
           Shorten it
         </button>
       </div>
-
       <div className='body_inputs'>
         {loading ? <h1 className='loading'>Loading...</h1> : ''}
 
@@ -70,7 +69,6 @@ const Body = () => {
           </div>
         )}
       </div>
-
       <BodyItems />
     </div>
   )
